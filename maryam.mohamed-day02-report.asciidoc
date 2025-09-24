@@ -1,0 +1,175 @@
+#
+
+Python Proficiency for Scientific Computing and Data Science
+(PyPro-SCiDaS)
+
+###
+
+An Initiation to Programming using Python (Init2Py)
+
+
++*In[2]:*+
+[source, ipython3]
+----
+x = 20
+
+----
+
+
++*In[3]:*+
+[source, ipython3]
+----
+x.real
+
+----
+
+
++*Out[3]:*+
+----20----
+
+
++*In[4]:*+
+[source, ipython3]
+----
+help(x.conjugate)
+----
+
+
++*Out[4]:*+
+----
+Help on built-in function conjugate:
+
+conjugate(...) method of builtins.int instance
+    Returns self, the complex conjugate of any int.
+
+----
+
+
++*In[6]:*+
+[source, ipython3]
+----
+x.conjugate
+----
+
+
++*Out[6]:*+
+----<function int.conjugate>----
+
+
++*In[7]:*+
+[source, ipython3]
+----
+x = 10
+y = 5
+print(x + y)
+----
+
+
++*Out[7]:*+
+----
+15
+----
+
+
++*In[8]:*+
+[source, ipython3]
+----
+print(x*y)
+    
+----
+
+
++*Out[8]:*+
+----
+50
+----
+
+
++*In[10]:*+
+[source, ipython3]
+----
+print(x/y)
+----
+
+
++*Out[10]:*+
+----
+2.0
+----
+
+
++*In[13]:*+
+[source, ipython3]
+----
+x = 4.7
+y = int(x)
+print(y)
+----
+
+
++*Out[13]:*+
+----
+4
+----
+
+
++*In[24]:*+
+[source, ipython3]
+----
+x = 4
+y = float(x)
+print(y)
+
+----
+
+
++*Out[24]:*+
+----
+4.0
+----
+
+
++*In[19]:*+
+[source, ipython3]
+----
+print(type)
+----
+
+
++*Out[19]:*+
+----
+<class 'type'>
+----
+
+
++*In[15]:*+
+[source, ipython3]
+----
+var_1 = True
+var_2 = False
+----
+
+
++*In[17]:*+
+[source, ipython3]
+----
+var1 = False
+var2 = True
+var1 = var2
+var2 = var1 - var2
+
+bool(var1), bool(var2)
+
+
+----
+
+
++*Out[17]:*+
+----(True, False)----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
