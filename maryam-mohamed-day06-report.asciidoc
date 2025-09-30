@@ -1,0 +1,314 @@
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
+
+== if……else
+
+
++*In[12]:*+
+[source, ipython3]
+----
+a = 27
+#print(a)
+if (a > 29):
+    print("We have it")
+else:
+    print("We do not have it")
+----
+
+
++*Out[12]:*+
+----
+We do not have it
+----
+
+== if…elif…else
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+x = 0
+if x>0
+print("x is positive")
+elif
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
+
+
++*In[14]:*+
+[source, ipython3]
+----
+a = 15
+b = 10
+if a > b:
+    print("a is greater than b")
+    if (a-b > 5):
+        print("the diff is ....")
+    else:
+        print("the diff is .....")
+else:
+    print("b is greater than a")
+----
+
+
++*Out[14]:*+
+----
+a is greater than b
+the diff is .....
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+input("int", a)
+input("int", b)
+input("int", c)
+if a != 0:
+    print()
+----
+
+
++*In[17]:*+
+[source, ipython3]
+----
+import math
+
+# Input coefficients
+a = float(input("Enter coefficient a: "))
+b = float(input("Enter coefficient b: "))
+c = float(input("Enter coefficient c: "))
+
+# Calculate discriminant
+D = b**2 - 4*a*c
+
+# Use if to check cases
+if D > 0:
+    # Two reahjgj hgjgj "l solutions
+    x1 = (-b + math.sqrt(D)) / (2*a)
+    x2 = (-b - math.sqrt(D)) / (2*a)
+    print("Two real roots: x1 =", x1, ", x2 =", x2)
+
+elif D == 0:
+    # One real solution (double root)
+    x = -b / (2*a)
+    print("One real root: x =", x)
+
+else:
+    # Complex roots
+    real_part = -b / (2*a)
+    imag_part = math.sqrt(-D) / (2*a)
+    print("Two complex roots: x1 = {} + {}i , x2 = {} - {}i".format(real_part, imag_part, real_part, imag_part))
+----
+
+
++*Out[17]:*+
+----
+Enter coefficient a: 1
+Enter coefficient b: 3
+Enter coefficient c: 2
+Two real roots: x1 = -1.0 , x2 = -2.0
+----
+
+== Loops
+
+== while
+
+Initialize increment variable While condition: increment ### for for
+element in sequence_of_values: block of instructions
+
+
++*In[19]:*+
+[source, ipython3]
+----
+i = 1
+while (i < 10):
+    print("The value of i is", i)
+    i = i + 1
+    
+----
+
+
++*Out[19]:*+
+----
+The value of i is 1
+The value of i is 2
+The value of i is 3
+The value of i is 4
+The value of i is 5
+The value of i is 6
+The value of i is 7
+The value of i is 8
+The value of i is 9
+----
+
+
++*In[23]:*+
+[source, ipython3]
+----
+n = 10
+for i in range(n):
+    print(i)
+
+
+----
+
+
++*Out[23]:*+
+----
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+----
+
+
++*In[31]:*+
+[source, ipython3]
+----
+for char in  "hjjghjgh hjgj hgjgj "
+print(char)
+----
+
+
++*Out[31]:*+
+----
+
+      File "/tmp/ipykernel_3816/3384413982.py", line 1
+        for char in  "hjjghjgh hjgj hgjgj "
+                                           ^
+    SyntaxError: invalid syntax
+
+
+----
+
+
++*In[32]:*+
+[source, ipython3]
+----
+list_fr = [3, 5, 'helo', 98]
+for i in list_fr:
+    if i == 5:
+        print("We found it")
+    else:
+        print("Try again")
+----
+
+
++*Out[32]:*+
+----
+Try again
+We found it
+Try again
+Try again
+----
+
+
++*In[33]:*+
+[source, ipython3]
+----
+sentence = "Hello, world."
+for letter in sentence:
+    if letter in "AEIOUaeiou":
+        print("The letter", letter, "is a vowel")
+    elif letter == " ":
+         print("This is likely a space")
+    else:
+         print("The letter", letter, "is a consonant")
+----
+
+
++*Out[33]:*+
+----
+The letter H is a consonant
+The letter e is a vowel
+The letter l is a consonant
+The letter l is a consonant
+The letter o is a vowel
+The letter , is a consonant
+This is likely a space
+The letter w is a consonant
+The letter o is a vowel
+The letter r is a consonant
+The letter l is a consonant
+The letter d is a consonant
+The letter . is a consonant
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
